@@ -1,0 +1,487 @@
+*{
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+header{
+	animation: subidon 1s;
+}
+@keyframes subidon {
+	0%	{margin-top: 160%;}
+	60%	{margin-top: -5%;}
+	100% {margin-top: 0%;}
+}
+
+body{
+	background-color: #02010a;
+}
+@font-face{
+	font-family: "DancingScript";
+	src: url("../fuentes/DancingScript.otf");
+}
+@font-face {
+	font-family: "Champagne&Limousines";
+	src: url("../fuentes/Champagne&Limousines.ttf");
+}
+/* Encabezado */
+#contenido{
+	width: 900px;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+header{
+  background-color: #5b7989;
+  width: 100%;
+  height: 100px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header h1{
+	margin-left: 2%;
+	font-family: "DancingScript";
+	font-size: 40px;
+	color:white;
+	text-align: left;
+	line-height: 100px;
+    text-shadow: 2px 2px 2px #02010a;
+	float: left;
+}
+
+#menu{
+	margin-right: 2%;
+	font-size: 30px;
+	font-family: "Champagne&Limousines";
+    text-align: right;
+	line-height: 120px;
+    color:white;
+	float: right;
+}
+.enlace1, .enlace2, .enlace3{
+	color: white;
+}
+
+.enlace1{
+	text-decoration: none;
+}
+
+
+/* Cuerpo */
+
+.fondocentro{
+	width: 100%;
+	height: 310px;
+	background-color: #82c3a6;
+}
+
+.paisajecentro{
+	width: 90%;
+	margin: auto;
+	padding-top: 5px;
+    float: center;
+	box-shadow: 2px 2px 2px #02010a;
+}
+
+.mitad{
+	width: 100%;
+	height: 310px;
+	background-color: #d5c75f;
+}
+.imagenizquierda{
+  width: 40%;
+  margin: 25px 15px 5px 65px;
+  border: solid 2px black;
+  float: left;
+}
+
+.imagenizquierda:hover{
+	animation: paisajehome 1.5s;
+}
+@-webkit-keyframes paisajehome{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(10deg);
+	}
+	90%{
+		transform: rotate(-10deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+.titulopaisaje1{
+	width: 50%;
+	font-family: "DancingScript";
+	font-size: 20px;
+    margin: 0px 10px 0px 170px;
+    float: left;
+	text-decoration: underline;
+}
+
+.imagenderecha{
+	width: 40%;
+	margin: 25px 15px 5px 40px;
+	border: solid 2px black;
+	float: left;
+}
+.imagenderecha:hover{
+	animation: retratohome 2s;
+}
+
+@-webkit-keyframes retratohome{
+	0%{
+		transform: translate(0px);
+	}
+	50%{
+		transform: translate(20px);
+	}
+	90%{
+		transform: translate(-10px);
+	}
+	100%{
+		transform: translate(0px);
+	}
+}
+.tituloretrato1{
+	width: 30%;
+	font-family: "DancingScript";
+	font-size: 20px;
+    margin-right: 0px;
+    float: right;
+	text-decoration: underline;
+}
+.enlacetitulop, .enlacetitulor{
+	color: black;
+}
+
+/* footer */
+
+footer{
+	clear: both;
+	width: 100%;
+	height: 150px;
+	background-color: #C6d5c5;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+/* Contacto */
+div.contacto{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+#titulocontacto{
+	font-family: "DancingScript";
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#parrafocontacto{
+	font-family: "Champagne&Limousines";
+	font-size: 15px;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+/* Terminos */
+div.terminos{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+#tituloterminos{
+	font-family: "DancingScript";
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#parrafoterminos{
+	font-family: "Champagne&Limousines";
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+/* Redes Sociales */
+div.redessociales{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+#tituloredes{
+	font-family: "DancingScript";
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#parraforedes{
+	font-family: "Champagne&Limousines";
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+/* Derechos */
+div.derechos{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+#tituloderechos{
+	font-family: "DancingScript";
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#parrafoderechos{
+	font-family: "Champagne&Limousines";
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 900px){
+	#contenido{
+		width: 100%;
+	}
+}
+
+@media (min-width:320px) and (max-width: 700px){
+	#contenido{
+		width: 95%;
+		margin:auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	header{
+		background-color: #5b7989;
+		width: 100%;
+		height: 40px;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+	}
+	header h1{
+		margin-left: 15px;
+		font-family: "DancingScript";
+		font-size: 25px;
+		color:white;
+		line-height: 5px;
+	    text-shadow: 2px 2px 2px #02010a;
+		float: left;
+	}
+	#menu{
+		margin-left: 65px;
+		font-size: 18px;
+		font-family: "Champagne&Limousines";
+		line-height: 55px;
+	    color:white;
+		float: left;
+	}
+	.enlace1, .enlace2, .enlace3{
+		color: white;
+	}
+	.enlace1{
+		text-decoration: none;
+	}
+
+	/* Cuerpo */
+
+	.fondocentro{
+		width: 100%;
+		height: 140px;
+		background-color: #82c3a6;
+	}
+
+	.paisajecentro{
+		width: 90%;
+		margin: auto;
+		padding-top: 20px;
+	    float: center;
+		box-shadow: 2px 2px 2px #02010a;
+	}
+
+	.mitad{
+		width: 100%;
+		height: 500px;
+		background-color: #d5c75f;
+	}
+	.imagenizquierda{
+	  width: 80%;
+	  height: 35%;
+	  margin: 25px 10px 5px 30px;
+	  border: solid 2px black;
+	  float: left;
+	}
+	.imagenizquierda:hover{
+		animation: paisajehome 1.5s;
+	}
+	@-webkit-keyframes paisajehome{
+		0%{
+			transform: rotate(0deg);
+		}
+		50%{
+			transform: rotate(10deg);
+		}
+		90%{
+			transform: rotate(-10deg);
+		}
+		100%{
+			transform: rotate(0deg);
+		}
+	}
+	.titulopaisaje1{
+		font-family: "DancingScript";
+		font-size: 15px;
+	    margin: 0px 10px 0px 170px;
+	    float: left;
+		text-decoration: underline;
+	}
+
+	.imagenderecha{
+		width: 80%;
+		height: 35%;
+	  	margin: 25px 10px 5px 30px;
+	  	border: solid 2px black;
+	  	float: left;
+	}
+	.imagenderecha:hover{
+		animation: retratohome 2s;
+	}
+	@-webkit-keyframes retratohome{
+		0%{
+			transform: translate(0px);
+		}
+		50%{
+			transform: translate(20px);
+		}
+		90%{
+			transform: translate(-10px);
+		}
+		100%{
+			transform: translate(0px);
+		}
+	}
+	.tituloretrato1{
+		font-family: "DancingScript";
+		font-size: 15px;
+	    margin: 0px 10px 0px 170px;
+	    float: left;
+		text-decoration: underline;
+	}
+	.enlacetitulop, .enlacetitulor{
+		color: black;
+	}
+
+	/* footer */
+
+	footer{
+		clear: both;
+		width: 100%;
+		height: 500px;
+		background-color: #C6d5c5;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+
+	/* Contacto */
+	div.contacto{
+		width: 90%;
+		height: 25%;
+		margin: 2px 0px 2px 30px;
+		float: left;
+	}
+
+	#titulocontacto{
+		font-family: "DancingScript";
+		font-size: 25px;
+		text-align: left;
+	}
+
+	#parrafocontacto{
+		font-family: "Champagne&Limousines";
+		font-size: 20px;
+		margin-left: 10px;
+		text-decoration: none;
+		float: left;
+	}
+
+	/* Terminos */
+	div.terminos{
+		width: 80%;
+		height: 20%;
+		margin: 2px 0px 1px 30px;
+		float: left;
+	}
+
+	#tituloterminos{
+		font-family: "DancingScript";
+		font-size: 25px;
+		text-align: left;
+	}
+
+	#parrafoterminos{
+		font-family: "Champagne&Limousines";
+		font-size: 20px;
+		margin-left: 10px;
+		text-decoration: none;
+		float: left;
+	}
+
+	/* Redes Sociales */
+	div.redessociales{
+		width: 80%;
+		height: 30%;
+		margin: 2px 0px 2px 30px;
+		float: left;
+	}
+
+	#tituloredes{
+		font-family: "DancingScript";
+		font-size: 25px;
+		text-align: left;
+	}
+
+	#parraforedes{
+		font-family: "Champagne&Limousines";
+		font-size: 20px;
+		margin-left: 10px;
+		text-decoration: none;
+		float: left;
+	}
+
+	/* Derechos */
+	div.derechos{
+		width: 80%;
+		height: 25%;
+		margin: 2px 0px 3px 30px;
+		float: left;
+	}
+
+	#tituloderechos{
+		font-family: "DancingScript";
+		font-size: 25px;
+		text-align: left;
+	}
+
+	#parrafoderechos{
+		font-family: "Champagne&Limousines";
+		font-size: 20px;
+		margin-left: 10px;
+		text-decoration: none;
+		float: left;
+	}
+
+}
